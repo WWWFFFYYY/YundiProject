@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(../../login.jpg);
+}
+-->
+</style></head>
+
+<body>
+<p>培训管理/公开课管理</p>
+<form id="form1" name="form1" method="post" action="">
+  <label>
+  <input name="textfield" type="text" value="请输入课程名称" />
+  </label>
+  <label>
+  <select name="select">
+    <option>启用</option>
+    <option>停用</option>
+  </select>
+  </label>
+  <label>
+  <input type="submit" name="Submit" value="查询" />
+  <a href="courseList.html" target="mainFrame">1</a>  </label>
+  <label>
+  <input type="submit" name="Submit2" value="添加到公开课" />
+  <a href="../添加公开课/addPublicCourse.html" target="mainFrame">1</a>  </label>
+  <label>
+  <input type="submit" name="Submit3" value="删除" onclick="javascript:alert('请选择课程进行删除')"/>
+  </label>
+  <label>
+  <input type="checkbox" name="checkbox" value="checkbox" />
+  </label>
+显示全部
+</form>
+<table width="1382" height="299" border="1" bordercolor="#000000">
+  <tr>
+  	<td width="34"><input type="checkbox" name="checkbox26" value="checkbox" /></td>
+    <td width="116">课程名称</td>
+    <td width="108">所属课程类别</td>
+    <td width="78">课程学时</td>
+    <td width="77">课程学分</td>
+    <td width="97">课程上传者</td>
+    <td width="91">课程作者</td>
+    <td width="87">课程浏览量</td>
+    <td width="90">课程关注量</td>
+    <td width="110">课程是否公开</td>
+	<td width="181">更新时间</td>
+    <td width="237">操作</td>
+  </tr>
+  <tr>
+  	<td><form id="form2" name="form2" method="post" action="">
+  	  <label>
+  	    <input type="checkbox" name="checkbox2" value="checkbox" />
+  	    </label>
+	  </form>
+  	</td>
+    <td>Java语言基础</td>
+    <td>JavaEE</td>
+    <td>8小时</td>
+    <td>2</td>
+    <td>张三</td>
+    <td>李四</td>
+    <td>20</td>
+    <td>20</td>
+    <td>公开</td>
+	<td><p>2020-07-06 21:05:00</p>
+    </td>
+    <td><a href="courseList.html" target="mainFrame" onclick="javascript:alert('删除成功')">删除 </a>| 
+      <input type="button" value="停用" onclick="javascript:alert('停用成功')"/> 
+      |<a href="courseComment.html" target="mainFrame">评论 </a>|<a href="studySituation.html" target="mainFrame">学习情况 </a></td>
+  </tr>
+  <tr>
+  	<td><input type="checkbox" name="checkbox22" value="checkbox" /></td>
+    <td>信息安全管理</td>
+    <td>网络信息安全</td>
+    <td>8小时</td>
+    <td>2</td>
+    <td>张三</td>
+    <td>李四</td>
+    <td>15</td>
+    <td>20</td>
+    <td>公开</td>
+	<td><p>2020-07-06 21:05:00</p>
+    </td>
+    <td><a href="courseList.html" target="mainFrame" onclick="javascript:alert('删除成功')">删除 </a>|
+      <input name="button" type="button" value="停用" onclick="javascript:alert('停用成功')"/>
+    |<a href="courseComment.html" target="mainFrame">评论 </a>|<a href="studySituation.html" target="mainFrame">学习情况 </a></td>
+  </tr>
+  <tr>
+ 	<td><input type="checkbox" name="checkbox23" value="checkbox" /></td>
+    <td>Linux操作系统</td>
+    <td>操作系统</td>
+    <td>8小时</td>
+    <td>2</td>
+    <td>张三</td>
+    <td>李四</td>
+    <td>18</td>
+    <td>20</td>
+    <td>公开</td>
+	<td><p>2020-07-06 21:05:00</p>
+    </td>
+    <td><a href="courseList.html" target="mainFrame" onclick="javascript:alert('删除成功')">删除 </a>|
+      <input name="button2" type="button" value="停用" onclick="javascript:alert('停用成功')"/>
+    |<a href="courseComment.html" target="mainFrame">评论 </a>|<a href="studySituation.html" target="mainFrame">学习情况 </a></td>
+  </tr>
+  <tr>
+ 	<td><input type="checkbox" name="checkbox24" value="checkbox" /></td>
+    <td>大数据管理</td>
+    <td>大数据课程</td>
+    <td>8小时</td>
+    <td>2</td>
+    <td>张三</td>
+    <td>李四</td>
+    <td>21</td>
+    <td>20</td>
+    <td>公开</td>
+	<td><p>2020-07-06 21:05:00</p>
+    </td>
+    <td><a href="courseList.html" target="mainFrame" onclick="javascript:alert('删除成功')">删除 </a>|
+      <input name="button3" type="button" value="停用" onclick="javascript:alert('停用成功')"/>
+    |<a href="courseComment.html" target="mainFrame">评论 </a>|<a href="studySituation.html" target="mainFrame">学习情况 </a></td>
+  </tr>
+  <tr>
+  	<td><input type="checkbox" name="checkbox25" value="checkbox" /></td>
+    <td>软件需求工程</td>
+    <td>软件工程</td>
+    <td>8小时</td>
+    <td>2</td>
+    <td>张三</td>
+    <td>李四</td>
+    <td>23</td>
+    <td>20</td>
+    <td>不公开</td>
+	<td><p>2020-07-06 21:05:00</p>
+    </td>
+    <td><a href="courseList.html" target="mainFrame" onclick="javascript:alert('删除成功')">删除 </a>|
+      <input name="button4" type="button" value="停用"onclick="javascript:alert('停用成功')" />
+    |<a href="courseComment.html" target="mainFrame">评论 </a>|<a href="studySituation.html" target="mainFrame">学习情况 </a><a href="courselist.html" target="mainFrame"></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+</body>
+
+</html>

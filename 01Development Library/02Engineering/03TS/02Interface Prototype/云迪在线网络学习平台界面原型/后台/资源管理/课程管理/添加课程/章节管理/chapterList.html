@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(../../../../login.jpg);
+	background-repeat: no-repeat;
+}
+-->
+</style></head>
+
+<body>
+<p>添加课程</p>
+<p><strong>课程添加</strong>------<strong>课件管理</strong>-----<strong>章节管理</strong>-----启用课程</p>
+<form id="form1" name="form1" method="post" action="">
+  <label>
+  <input type="submit" name="Submit" value="添加章节" />
+  <a href="addChapter.html" target="mainFrame">1</a>  </label>
+  <label>
+  <input type="submit" name="Submit2" value="编辑章节" />
+  <a href="updateChapter.html" target="mainFrame">1</a>  </label>
+  <label>
+  <input type="submit" name="Submit3" value="删除章节" onclick="javascript:alert('请选择章节进行删除')"/> 
+  </label>
+  <label>
+  <input type="submit" name="Submit4" value="保存" />
+  </label> 
+  <a href="../../课程列表/startCourse.html" target="mainFrame">1</a>
+</form>
+<table width="392" height="276" border="1">
+  <tr>
+    <td width="382" height="34"> 章节设置区域(选择章节添加到课程)</td>
+  </tr>
+  <tr>
+    <td height="234"><table width="385" height="133" border="1">
+      <tr>
+	  	<td width="20"><form id="form3" name="form3" method="post" action="">
+	  	  <label>
+	  	  <input type="checkbox" name="checkbox" value="checkbox" />
+	  	  </label>
+	  	  </form>	  	</td>
+        <td width="64">第一章</td>
+        <td width="148"><p>RUP.pptx</p>
+          <p>用例模型.pptx</p>
+          <p>Servlet初步.pptx</p></td>
+        <td width="122"><form id="form2" name="form2" method="post" action="">
+          <label>
+            <input type="submit" name="Submit5" value="添加到课程" />
+            </label>
+        </form>        </td>
+      </tr>
+      <tr>
+	  	<td width="20"><input type="checkbox" name="checkbox2" value="checkbox" /></td>
+        <td>第二章</td>
+        <td><p>RUP.pptx</p>
+          <p>用例模型.pptx</p>
+          <p>Servlet初步.pptx</p></td>
+        <td><label>
+          <input type="submit" name="Submit52" value="添加到课程" />
+        </label></td>
+      </tr>
+      <tr>
+	  	<td width="20"><input type="checkbox" name="checkbox3" value="checkbox" /></td>
+        <td>第三章</td>
+        <td><p>RUP.pptx</p>
+          <p>用例模型.pptx</p>
+          <p>Servlet初步.pptx</p></td>
+        <td><label>
+          <input type="submit" name="Submit53" value="添加到课程" />
+        </label></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="387" height="253" border="1">
+  <tr>
+    <td width="377">待选课件区域</td>
+  </tr>
+  <tr>
+    <td height="195"><p>RUP.pptx 
+      <label></label>
+    </p>
+      <p>用例模型.pptx
+        <label></label>
+      </p>
+    <p>Servlet初步.pptx
+      <label></label>
+    </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
